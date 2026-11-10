@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
+
+class SoloDueno
+{
+    public function handle(Request $request, Closure $next): Response
+    {
+        abort_unless($request->user()?->rol === 'dueno', 403, 'Esta sección es solo para el dueño.');
+
+        return $next($request);
+    }
+}
