@@ -86,8 +86,7 @@ Proyecto en desarrollo activo.
 
 ## Equipo
 
-- **Jasiel Bernal**: [GitHub](https://github.com/Jasiel789)
-- [Agrega a tus compañeros]
+- **Pablo Jasiel Bernal Garcia**: [GitHub](https://github.com/Jasiel789)
 
 ## Derechos
 
